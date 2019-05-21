@@ -46,7 +46,7 @@ import {
       });
     }
     render() {
-      let user = localStorage.getItem('user');git 
+      let user = localStorage.getItem('user');gi
       return (
         <div>
         <Navbar dark expand="md">
