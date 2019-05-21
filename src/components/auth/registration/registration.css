@@ -1,0 +1,81 @@
+.registration {
+    background: #f7f6f6;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.registration-form {
+    /* width: 35%; */
+    margin: 0 auto;
+    /* margin-top: 10%; */
+}
+
+.registration-form .inputs-form {
+    display: block;
+    padding: 5px 10px;
+    margin-top: 10px !important;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 1px;
+    border: 1px solid #8d8b8b;
+    outline: none;
+    font-family: 'Avenir-Ligh', sans-serif;
+}
+
+.registration-form .inputs-form ::placeholder {
+    color: #4d4d4d;
+    /* color: #388e3c; */
+    opacity: 1;
+}
+
+.password {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif !important;
+}
+
+.password::placeholder {
+    font-family: 'Avenir-Ligh', sans-serif;
+}
+
+.message-alert {
+    /* position: absolute;
+    top: 10px;
+    right: 10px; */
+    text-align: center;
+}
+
+.font-small {
+    font-family: 'Avenir-Ligh', sans-serif;
+    font-size: 15px !important;
+}
+
+.errorBorder {
+    /* border: 1px solid #388e3c !important; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-error{
+    font-family: 'Avenir-Ligh', sans-serif !important;
+    color: red;
+    font-size: 15px;
+}
+
+@media (min-width: 1625px) {
+    .registration-form {
+        width: 25% !important;
+    }
+}
+@media (min-width: 768px) and (min-width: 992px) {
+    .registration-form {
+        width: 55% !important;
+    }
+}
+@media (min-width: 992px) {
+    .registration-form {
+        width: 35% !important;
+    }
+}
+
+@font-face {
+    font-family: 'Avenir-Ligh'; 
+    src: url('../../../assets/fonts/Avenir-35-Light.ttf'); /* Путь к файлу со шрифтом */
+   }

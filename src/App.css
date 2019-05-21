@@ -1,0 +1,142 @@
+.todo-view {
+    background: url("../src/assets/images/bg.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.user-profile {
+    background: url("../src/assets/images/joshua-fuller-229093-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* .logination, .registration{
+    background: url("../src/images/joshua-fuller-229093-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+} */
+.blue-text a{
+    color: darkcyan !important;
+}
+.blue-text a:hover{
+    color: darkcyan !important;
+    text-decoration: underline;
+}
+a {
+    color: #fff !important;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, .35) !important;
+}
+
+.navbar-dropdown-menu {
+    top: 10px !important;
+    left: 0 !important;
+}
+
+.taskBlocks {
+    padding: 20px 20px 0px 20px;
+}
+
+.taskBlock {
+    display: flex;
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    height: 92vh;
+}
+
+.taskTitle {
+    margin-right: auto;
+    font-size: 14px;
+    width: 74%;
+}
+
+.card-header {
+    background-color: #DFE3E6 !important;
+    border-bottom: none !important;
+    font-weight: bolder;
+    display: flex;
+    padding: .75rem .5rem .75rem 1rem !important;
+}
+
+.card-header_title {
+    margin-right: auto;
+    padding-top: 2px;
+}
+
+.card-footer {
+    background-color: #DFE3E6 !important;
+    border-top: none !important;
+}
+
+.cardbody,
+.formList,
+.editbody {
+    border-left: 8px solid #DFE3E6;
+    border-right: 8px solid #DFE3E6;
+    border-right: 8px solid #DFE3E6;
+    border-top: 4px solid #DFE3E6;
+    border-bottom: 4px solid #DFE3E6;
+    display: flex;
+}
+
+.addListBtn,
+.addCardBtn {
+    cursor: pointer;
+}
+
+.header-icon:hover {
+    background: none;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.hide-ntn {
+    display: none !important;
+}
+
+.editbody input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 37px;
+}
+
+.formList input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+.formList .icon-save {
+    margin-top: 6px;
+    margin-right: 16px;
+}
+
+.form-control {
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    .dropdown-menu {
+        position: absolute;
+        transform: translate3d(-46px, 35px, 0px) !important;
+    }
+}
+

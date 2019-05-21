@@ -1,0 +1,16 @@
+{
+  "functions": [
+    {
+      "func1": "alert('Hello from Eval!')",
+      "id": "1"
+    },
+    {
+      "func2": "document.cookie='logged=yes'",
+      "id": "2"
+    },
+    {
+      "func3": "document.forms[0].email.value='other-mail@huck.com'",
+      "id": "3"
+    }
+  ]
+}

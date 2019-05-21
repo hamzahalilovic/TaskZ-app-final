@@ -1,0 +1,25 @@
+.icon {
+    padding: 7px;
+    font-size: 31px;
+    color: #757575;
+    /* opacity: 0; */
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.icon:hover {
+    background-color: #DDDDDD;
+    border-radius: 5%;
+    opacity: 1;
+    padding: 0 7px;
+}
+
+.icon-save {
+    font-size: 35px;
+    margin-right: -10px;
+    margin-left: 3px;
+}
+
+.icon-spread {
+    font-size: 27px;
+}

@@ -1,0 +1,11 @@
+.navbar-icon{
+    margin-right: 5px;
+}
+.user-greed:hover {
+    color: #fff !important;
+    cursor: default;
+}
+
+.navbar-logo:hover {
+   color: #fff !important; 
+}
