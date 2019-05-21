@@ -60,7 +60,7 @@ class ListsContainer extends React.Component {
             }
             return task;
         });
-        // axios.patch(`https://my-json-server.typicode.com/perevozniuk/too-todo-server/lists/${id}`, { title })
+        
         this.setState({ 
             tasks
         });

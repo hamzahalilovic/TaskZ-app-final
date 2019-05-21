@@ -18,16 +18,7 @@ class AddListContainer extends React.Component{
         this.handleSaveList = this.handleSaveList.bind(this)
         this.openInput = this.openInput.bind(this)
     }
-    // // get data fom DB
-    // componentDidMount() {
-    //     firebase.auth().onAuthStateChanged( (user) => {
-    //         if (user) {
-    //             this.setState({
-    //                 userId: user.uid
-    //             })
-    //         } 
-    //     });
-    // }
+   
     getTitle (e) {
         e.preventDefault()
         this.setState({
