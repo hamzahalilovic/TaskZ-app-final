@@ -8,7 +8,7 @@ const config = {
     apiKey: "AIzaSyBUW0Y2ZjXT7iaBIg3Ejw0uauyv17IeNaQ",
     authDomain: "too-todo.firebaseapp.com",
     databaseURL: "https://too-todo.firebaseio.com",
-    projectId: "Taskz",
+    projectId: "TaskZ",
     storageBucket: "",
     messagingSenderId: "641723142103"
 };
