@@ -46,14 +46,14 @@ import {
       });
     }
     render() {
-      let user = localStorage.getItem('user');
+      let user = localStorage.getItem('user');gi
       return (
         <div>
         <Navbar dark expand="md">
         <NavbarBrand >
         <Link to="/" className="navbar-logo">
         <FontAwesomeIcon className="navbar-icon" icon={faBookmark} />
-        Too-todo
+        TaskZ
         </Link>
         </NavbarBrand>
         
