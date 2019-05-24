@@ -2,8 +2,8 @@ TaskZ App -
 
 
 
-You can register or login with:
-username: johndoe@gmail.com;
+You can register or login with
+username: johndoe@gmail.com
 password: 11111111
 
 Technologies:
