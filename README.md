@@ -1,9 +1,6 @@
 TaskZ App - 
 
-
-
-You can register or login with
-username: johndoe@gmail.com(default sample name for internet use)
+username: johndoe@gmail.com(
 password: 11111111
 
 Technologies:
